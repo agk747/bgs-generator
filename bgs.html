@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+  <title>BGS Last n Questions</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="scripts.js"></script>
+</head>
+<body>
+  <div class="jumbotron text-center">
+    <h1>BGS Last n Questions</h1>
+  </div>
+  <div class="container">
+    <div class="col-sm-12">
+      <div class="center">
+        <select id="mySelect" class="styled">
+          <option value="" disabled selected>Select subject</option>
+          <option>Meteorology</option>
+          <option>Human Performance</option>
+          <option>Mass and Balance</option>
+          <option>Principles of Flight</option>
+          <option>Instrumentation</option>
+          <option>Performance</option>
+          <option>General Navigation</option>
+          <option>Radio Navigation</option>
+          <option>Operational Procedures</option>
+          <option>VFR Communications </option>
+          <option>IFR Communications </option>
+          <option>Flight Planning and Flight Monitoring</option>
+          <option>Aircraft General Knowledge</option>
+          <option>Air Law and ATC Procedures</option>
+        </select>
+        <input type="text" class="styled" style="width: 7em" id="number" value="Number of Qs">
+        <input type="button" class="styledblack" onclick="getIDs()" value="Generate" id="Generate" >
+        <br><br>
+        <p class="center2" id="out"></p>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Copyright &copy; Adam Keiller 2018</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
