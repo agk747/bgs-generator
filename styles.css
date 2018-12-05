@@ -24,7 +24,7 @@ h1 {
 .styledblack {
     background-color: black;
     color: white;
-    font-size: 16px;
+    font-size: 12px;
     border: 1px solid #ccc;
     border-radius: 0px;
     height: 34px;
@@ -44,7 +44,7 @@ h1 {
 }
 
 .styled {
-  font-size: 16px;
+  font-size: 12px;
   border: 1px solid #ccc;
   border-radius: 0px;
   height: 34px;
