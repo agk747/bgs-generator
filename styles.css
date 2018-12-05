@@ -6,10 +6,6 @@ h1 {
   font-size: 300%;
 }
 
-body {
-  font-size: 150%
-}
-
 .center {
     word-break: break-all;
     text-align: center;
@@ -24,6 +20,7 @@ body {
     font-family: "Inconsolata";
     padding: 10px;
     background-color: WhiteSmoke;
+    style="font-size: 180%"
 }
 .styledblack {
     background-color: black;
