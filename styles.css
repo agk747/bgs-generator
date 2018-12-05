@@ -6,6 +6,10 @@ h1 {
   font-size: 300%;
 }
 
+body {
+  font-size: 150%
+}
+
 .center {
     word-break: break-all;
     text-align: center;
@@ -44,7 +48,7 @@ h1 {
 }
 
 .styled {
-  font-size: 16px;
+  font-size: 20px;
   border: 1px solid #ccc;
   border-radius: 0px;
   height: 34px;
